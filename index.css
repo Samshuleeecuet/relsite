@@ -1,0 +1,55 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grand_parent {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Snap ITC';
+}
+
+h1 {
+    font-size: 60pt;
+    padding: 20px 0;
+    text-align: center;
+    color:darkred;
+}
+
+p {
+    text-align: center;
+}
+
+.parents {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+.child {
+    height: 50px;
+    box-shadow: 0 0 20px #bac3c3;
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+    .child:first-child {
+        background: yellow;
+        border-radius:8px;
+        font-size:20pt;
+    }
+    .child:last-child {
+        background: yellow;
+        border-radius: 8px;
+        font-size: 20pt;
+    }
+
+@media (max-width: 768px) {
+    .grand_parent {
+        height: auto;
+    }

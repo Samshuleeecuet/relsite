@@ -1,0 +1,17 @@
+﻿* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.cointainter {
+    text-align: center;
+    padding-top:200px;
+}
+.ilu p{
+    font-size:40pt;
+    color:red;
+    font-family:'Old English Text MT';
+}
