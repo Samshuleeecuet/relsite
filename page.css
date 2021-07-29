@@ -1,4 +1,5 @@
-﻿* {
+﻿@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Rubik:wght@300;400&display=swap');
+* {
     box-sizing: border-box
 }
 
@@ -6,12 +7,19 @@ body {
     margin: 0;
     padding: 0;
 }
-.cointainter {
+.main {
     text-align: center;
-    padding-top:200px;
+    height: 850px;
+    position: relative;
+    bottom: 150px;
+    width: 100%;
+    background-image: url("1.jpg");
+    background-size: contain;
 }
-.ilu p{
-    font-size:40pt;
+p{
+    font-size:80pt;
     color:red;
-    font-family:'Old English Text MT';
+    font-family: 'Cookie', cursive;
+    position: relative;
+    top: 300px;
 }
