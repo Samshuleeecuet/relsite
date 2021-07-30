@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=MonteCarlo&family=Nanum+Myeongjo:wght@400;700&family=Poppins:wght@200;300;400&family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("3.jpg");
+    background-size: cover;
+    height: 1100px;
+    width: 100%;
+    font-family: 'Gowun Batang', serif;
+    font-size: 70pt;
+    color: white;
+}
+.main p{
+    text-align: center;
+    height: 150px;
+    width: 100%;
+
+}
+img{
+    height: 800px;
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+}
+#button{
+    height: 150px;
+    width: 100%;
+}
+#button a{
+    text-decoration: none;
+    background-color: green;
+    font-size: 20pt;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    bottom: 360px;
+    left: 392px;
+    margin: 5px 90px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+}
+#btn2{
+    background-color: rgb(129, 129, 52) !important;
+}

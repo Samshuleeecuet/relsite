@@ -1,7 +1,4 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Rubik:wght@300;400&display=swap');
-* {
-    box-sizing: border-box
-}
 
 body {
     margin: 0;
@@ -9,12 +6,13 @@ body {
 }
 .main {
     text-align: center;
-    height: 850px;
     position: relative;
+    height: 900px;
     bottom: 150px;
     width: 100%;
     background-image: url("1.jpg");
-    background-size: contain;
+    background-attachment: scroll;
+    background-size: cover;
 }
 p{
     font-size:80pt;
